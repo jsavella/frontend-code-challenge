@@ -1,0 +1,42 @@
+/* Challenge 1 - ICONS */
+
+.challenge1 {
+    &__page-layout {
+        max-width: 1000px;
+    }
+   }
+
+    %sprite_global {
+        background: url('//www.esri.com/~/media/4B5D1BB42F214D1D8602FED3A9D25DC5') 0 0 no-repeat;
+        display: inline-block;
+        text-indent: -9999px;
+        padding-right: 0 5px 5px;
+        line-height: 33px;
+        height: 50px;
+        width: 50px;
+    }
+
+    $sprite:rocket,
+    fire,
+    person,
+    squirrel,
+    question,
+    star,
+    beaker,
+    watch,
+    telescope;
+    @each $icons in $sprite {
+        $position: index($sprite, $icons) - 1;
+        .icon_#{$icons} {
+            background-position: 0 ($position * -50px);
+            @extend %sprite_global;
+            &:hover {
+                background-position: -50px ($position * -50px);
+            }
+        }
+    }
+    @media screen and (max-width: 768px) {
+        .mobile {
+            padding-bottom: 30px;
+        }
+    }

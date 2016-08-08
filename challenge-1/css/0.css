@@ -1,0 +1,23 @@
+/* Challenge 1 - ICONS */
+.challenge1__page-layout {
+  max-width: 1000px;
+}
+.challenge1__header {
+  background-color: #4d4d4d;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px;
+  color: white;
+  margin-bottom: 10px;
+}
+.challenge1__container {
+  box-sizing: border-box;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1000px;
+  padding: 0;
+  display: inline-flex;
+  height: 300px;
+}
+
+/*# sourceMappingURL=0.css.map */

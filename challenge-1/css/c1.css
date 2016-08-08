@@ -1,0 +1,85 @@
+/* Challenge 1 - ICONS */
+.challenge1__page-layout {
+  max-width: 1000px;
+}
+
+.icon_rocket, .icon_fire, .icon_person, .icon_squirrel, .icon_question, .icon_star, .icon_beaker, .icon_watch, .icon_telescope {
+  background: url("//www.esri.com/~/media/4B5D1BB42F214D1D8602FED3A9D25DC5") 0 0 no-repeat;
+  display: inline-block;
+  text-indent: -9999px;
+  padding-right: 0 5px 5px;
+  line-height: 33px;
+  height: 50px;
+  width: 50px;
+}
+
+.icon_rocket {
+  background-position: 0 0px;
+}
+.icon_rocket:hover {
+  background-position: -50px 0px;
+}
+
+.icon_fire {
+  background-position: 0 -50px;
+}
+.icon_fire:hover {
+  background-position: -50px -50px;
+}
+
+.icon_person {
+  background-position: 0 -100px;
+}
+.icon_person:hover {
+  background-position: -50px -100px;
+}
+
+.icon_squirrel {
+  background-position: 0 -150px;
+}
+.icon_squirrel:hover {
+  background-position: -50px -150px;
+}
+
+.icon_question {
+  background-position: 0 -200px;
+}
+.icon_question:hover {
+  background-position: -50px -200px;
+}
+
+.icon_star {
+  background-position: 0 -250px;
+}
+.icon_star:hover {
+  background-position: -50px -250px;
+}
+
+.icon_beaker {
+  background-position: 0 -300px;
+}
+.icon_beaker:hover {
+  background-position: -50px -300px;
+}
+
+.icon_watch {
+  background-position: 0 -350px;
+}
+.icon_watch:hover {
+  background-position: -50px -350px;
+}
+
+.icon_telescope {
+  background-position: 0 -400px;
+}
+.icon_telescope:hover {
+  background-position: -50px -400px;
+}
+
+@media screen and (max-width: 768px) {
+  .mobile {
+    padding-bottom: 30px;
+  }
+}
+
+/*# sourceMappingURL=c1.css.map */

@@ -1,0 +1,35 @@
+{
+  "name": "Code-Challenge",
+  "projectName": "Code Challenge",
+  "version": "0.2.0",
+  "description": "Code Challenge",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/javella/frontend-code-challenge.git"
+  },
+  "keywords": [
+    "esri",
+    "front-end"
+  ],
+  "author": {
+    "name": "Esri Web Development"
+  },
+  "license": "none",
+  "bugs": {
+    "url": "https://github.com/jsavella/frontend-code-challenge/issues"
+  },
+  "dependencies": {
+    "grunt": "~0.4.5"
+  },
+  "devDependencies": {
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
