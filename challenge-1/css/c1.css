@@ -1,36 +1,85 @@
-/*
-Error: Invalid CSS after "...166115ac5a50361": expected "{", was ""
-        on line 47 of ./scss/c1.scss
+/* Challenge 1 - ICONS */
+.challenge1__page-layout {
+  max-width: 1000px;
+}
 
-42:         }
-43:     }
-44: =======
-45: /* Challenge CSS *\/
-46: >>>>>>> 7d9073792adf3878c66713bf2166115ac5a50361
+.icon_rocket, .icon_fire, .icon_person, .icon_squirrel, .icon_question, .icon_star, .icon_beaker, .icon_watch, .icon_telescope {
+  background: url("//www.esri.com/~/media/4B5D1BB42F214D1D8602FED3A9D25DC5") 0 0 no-repeat;
+  display: inline-block;
+  text-indent: -9999px;
+  padding-right: 0 5px 5px;
+  line-height: 33px;
+  height: 50px;
+  width: 50px;
+}
 
-Backtrace:
-./scss/c1.scss:47
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:1179:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:1115:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:1110:in `tok!'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:654:in `block'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:647:in `ruleset'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:673:in `block_child'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:666:in `block_contents'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:123:in `stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:39:in `parse'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/engine.rb:403:in `_to_tree'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/engine.rb:378:in `_render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/engine.rb:295:in `render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/exec/sass_scss.rb:414:in `run'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/exec/sass_scss.rb:63:in `process_result'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/exec/base.rb:52:in `parse'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/exec/base.rb:19:in `parse!'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/bin/sass:13:in `<top (required)>'
-/usr/local/bin/sass:23:in `load'
-/usr/local/bin/sass:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...166115ac5a50361\": expected \"{\", was \"\"\A         on line 47 of ./scss/c1.scss\A \A 42:         }\A 43:     }\A 44: =======\A 45: /* Challenge CSS */\A 46: >>>>>>> 7d9073792adf3878c66713bf2166115ac5a50361"; }
+.icon_rocket {
+  background-position: 0 0px;
+}
+.icon_rocket:hover {
+  background-position: -50px 0px;
+}
+
+.icon_fire {
+  background-position: 0 -50px;
+}
+.icon_fire:hover {
+  background-position: -50px -50px;
+}
+
+.icon_person {
+  background-position: 0 -100px;
+}
+.icon_person:hover {
+  background-position: -50px -100px;
+}
+
+.icon_squirrel {
+  background-position: 0 -150px;
+}
+.icon_squirrel:hover {
+  background-position: -50px -150px;
+}
+
+.icon_question {
+  background-position: 0 -200px;
+}
+.icon_question:hover {
+  background-position: -50px -200px;
+}
+
+.icon_star {
+  background-position: 0 -250px;
+}
+.icon_star:hover {
+  background-position: -50px -250px;
+}
+
+.icon_beaker {
+  background-position: 0 -300px;
+}
+.icon_beaker:hover {
+  background-position: -50px -300px;
+}
+
+.icon_watch {
+  background-position: 0 -350px;
+}
+.icon_watch:hover {
+  background-position: -50px -350px;
+}
+
+.icon_telescope {
+  background-position: 0 -400px;
+}
+.icon_telescope:hover {
+  background-position: -50px -400px;
+}
+
+@media screen and (max-width: 768px) {
+  .mobile {
+    padding-bottom: 30px;
+  }
+}
+
+/*# sourceMappingURL=c1.css.map */
