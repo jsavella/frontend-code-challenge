@@ -2,22 +2,48 @@
 <html>
 
 <head>
-    <title>Code Challenge 1</title>
+    <title>Javascript</title>
     <link rel="stylesheet" href="./css/c1.css">
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script>
+        //        $(document).read(function ()) {
+        $(window).load(function () {
+
+            var wealth = {
+                cash: 421232,
+                currency: "US",
+                color: "green"
+            };
+
+
+            var str1 = "I am wealthy I am an awesome javascript developer";
+            var str2 = "I am healthy and whole";
+            var str3 = str1 + str2;
+            var indexofAwesome = str3.indexOf("awesome");
+
+            const a = 10;
+
+            function calculateWealth(c, d) {
+                return c * d + wealth.cash;
+            }
+
+            var answer = calculateWealth(23, 1231.2);
+
+            // alert(answer.toFixed(2));
+            //            document.getElementById("result").innerHTML = answer.toFixed(2);
+            document.getElementById("result").innerHTML = indexofAwesome;
+            document.getElementById("result1").innerHTML = typeof(str1);
+        });
+    </script>
 </head>
 
 <body>
-    <div class="challenge1__page-layout">
-        <div class="icon_rocket" href="#">Rocket</div>
-        <div class="icon_fire" href="#">Fire</div>
-        <div class="icon_person" href="#">Person</div>
-        <div class="icon_squirrel" href="#">Squirrel</div>
-        <div class="icon_question" href="#">Question</div>
-        <div class="icon_star" href="#">Star</div>
-        <div class="icon_beaker" href="#">Beaker</div>
-        <div class="icon_watch" href="#">Watch</div>
-        <div class="icon_telescope" href="#">Telescope</div>
-    </div>
+    <h2>Javascript Fundamentals</h2>
+    <div id="result"></div>
+    <div id="result1"></div>
+
+
 </body>
+
 
 </html>
